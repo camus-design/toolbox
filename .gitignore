@@ -33,3 +33,5 @@ ios/
 linux/
 macos/
 windows/
+.flutter-plugins
+.flutter-plugins-dependencies
