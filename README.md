@@ -15,5 +15,10 @@ An out-of-the-box tools library: 1. Production level; 2. Very easy to configure;
 
 ## Additional information
 
+## How to contribute
+
+- [Project Management](https://github.com/orgs/camus-design/projects/1)
+
 ## Inspired by
+
 - [lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras.
