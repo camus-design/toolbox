@@ -22,3 +22,4 @@ An out-of-the-box tools library: 1. Production level; 2. Very easy to configure;
 ## Inspired by
 
 - [lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras.
+- [intl](https://github.com/dart-lang/intl)

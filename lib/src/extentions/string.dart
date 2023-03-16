@@ -1,4 +1,3 @@
-/// Extends the [String] with additional functionality.
 extension StringExtension on String {
   String reverse() {
     return String.fromCharCodes(runes.toList().reversed);
@@ -53,8 +52,15 @@ extension StringExtension on String {
     return runes.map(String.fromCharCode).join('\u{200B}');
   }
 
-  /// Returns a string with the first character in upper case.
   String capitalize() {
     return '${this[0].toUpperCase()}${substring(1)}';
+  }
+
+  List<String> toChunks(int size) {
+    final List<String> chunks = <String>[];
+    for (int i = 0; i < length; i += size) {
+      chunks.add(substring(i, i + size));
+    }
+    return chunks;
   }
 }
