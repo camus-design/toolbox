@@ -40,4 +40,27 @@ extension DateTimeExtention on DateTime {
   bool get isLeapYear {
     return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
   }
+
+  /// The ordinal date, the number of days since December 31st the previous year.
+  ///
+  /// January 1st has the ordinal date 1
+  ///
+  /// December 31st has the ordinal date 365, or 366 in leap years
+  int get ordinalDate {
+    const List<int> offsets = <int>[
+      0,
+      31,
+      59,
+      90,
+      120,
+      151,
+      181,
+      212,
+      243,
+      273,
+      304,
+      334
+    ];
+    return offsets[month - 1] + day + (isLeapYear && month > 2 ? 1 : 0);
+  }
 }
