@@ -8,12 +8,12 @@ class CamusIntervalTimer {
   late Timer _timer;
 
   void start() {
-    _timer = Timer.periodic(interval, (timer) {
+    _timer = Timer.periodic(interval, (Timer timer) {
       callback();
     });
   }
 
   void stop() {
-    _timer?.cancel();
+    _timer.cancel();
   }
 }

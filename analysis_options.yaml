@@ -2,3 +2,8 @@ include: package:camus_lints/camus.yaml
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
+
+analyzer:
+  errors:
+    # The following errors would have been enabled
+    public_member_api_docs: ignore

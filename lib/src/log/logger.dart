@@ -1,7 +1,6 @@
 import 'package:logger/logger.dart';
 
 /// A wrapper around the logger package.
-/// TODO: Detailed documentation.
 class CamusLogger {
   /// Singleton factory
   factory CamusLogger({

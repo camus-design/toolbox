@@ -1,6 +1,6 @@
 ## 0.0.2
 
-* feat: date & extentions
+* feat: date & extensions
 
 ## 0.0.1
 

@@ -1,4 +1,4 @@
-String CamesDateFormatDistance(
+String camusDateFormatDistance(
   DateTime dirtyDate, {
   DateTime? dirtyBaseDate,
   String suffix = 'ago',
