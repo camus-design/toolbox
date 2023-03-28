@@ -1,6 +1,35 @@
 import 'package:logger/logger.dart';
 
-/// A wrapper around the logger package.
+/// This class is a wrapper around the logger package and is used for logging
+/// output.
+/// Most of the time you don't need to configure various parameters about logger,
+/// you can use it directly.
+/// It provides an easy way to output logs at different levels and allows users
+/// to choose whether to output stack trace information.
+///
+/// By using the default constructor of CamusLogger, a singleton object logger
+/// is created, which can then be used to output logs at different levels.
+/// Additionally, the behavior of the log output can be controlled by passing
+/// in parameters, such as the number of lines to output or whether to use colors.
+///
+/// Each log method can also take optional parameters to control its behavior,
+/// such as the noStack parameter to control whether to output stack trace
+/// information.
+///
+/// ## Example
+/// ```dart
+/// final logger = CamusLogger();
+/// logger.debug('This is a debug message');
+/// logger.info('This is an info message');
+/// logger.warning('This is a warning message');
+/// logger.error('This is an error message');
+/// logger.verbose('This is a verbose message');
+/// logger.wtf('This is a wtf message');
+///
+/// logger.debug('This is a debug message with no stack trace information',
+///              noStack: true);
+/// ```
+///
 class CamusLogger {
   /// Singleton factory
   factory CamusLogger({
