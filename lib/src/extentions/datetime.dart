@@ -1,22 +1,55 @@
+/// Extension methods for the [DateTime] class.
 extension DateTimeExtention on DateTime {
+  /// Returns the day of the week as an index, where Monday is 1 and Sunday is 7.
+  ///
+  /// Example:
+  ///
+  /// ```dart
+  /// DateTime date = DateTime(2022, 04, 01);
+  /// int dayIndex = date.dayIndexOfWeek; // 5 (Friday)
+  /// ```
   int get dayIndexOfWeek {
     final int dayOfWeek = weekday;
     final int dayIndex = dayOfWeek == DateTime.sunday ? 7 : dayOfWeek;
     return dayIndex;
   }
 
+  /// Returns the day of the month as an index, where the first day of the month is 1.
+  ///
+  /// Example:
+  ///
+  /// ```dart
+  /// DateTime date = DateTime(2022, 04, 01);
+  /// int dayIndex = date.dayIndexOfMonth; // 1
+  /// ```
   int get dayIndexOfMonth {
     final DateTime firstDayOfMonth = DateTime(year, month, 1);
     final int dayOfMonth = difference(firstDayOfMonth).inDays + 1;
     return dayOfMonth;
   }
 
+  /// Returns the day of the year as an index, where the first day of the year is 1.
+  ///
+  /// Example:
+  ///
+  /// ```dart
+  /// DateTime date = DateTime(2022, 04, 01);
+  /// int dayIndex = date.dayIndexOfYear; // 91
+  /// ```
   int get dayIndexOfYear {
     final DateTime firstDayOfYear = DateTime(year, 1, 1);
     final int dayOfYear = difference(firstDayOfYear).inDays + 1;
     return dayOfYear;
   }
 
+  /// Returns the week of the month as an index, where the first week of the month is 1.
+  ///
+  /// Example:
+  ///
+  /// ```dart
+  /// DateTime date = DateTime(2022, 04, 01);
+  /// int weekIndex = date.weekIndexOfMonth; // 1
+  /// ```
   int get weekIndexOfMonth {
     final DateTime firstDayOfMonth = DateTime(year, month, 1);
     final int firstDayOfWeek = firstDayOfMonth.weekday;
@@ -27,6 +60,14 @@ extension DateTimeExtention on DateTime {
     return weekIndex;
   }
 
+  /// Returns the week of the year as an index, where the first week of the year is 1.
+  ///
+  /// Example:
+  ///
+  /// ```dart
+  /// DateTime date = DateTime(2022, 04, 01);
+  /// int weekIndex = date.weekIndexOfYear; // 13
+  /// ```
   int get weekIndexOfYear {
     final DateTime firstDayOfYear = DateTime(year, 1, 1);
     final int firstDayOfWeek = firstDayOfYear.weekday;
@@ -37,6 +78,7 @@ extension DateTimeExtention on DateTime {
     return weekIndex;
   }
 
+  /// Determines whether the year of the DateTime is a leap year.
   bool get isLeapYear {
     return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
   }
