@@ -1,7 +1,3 @@
-## 0.0.2
+## 0.1.0
 
-* feat: date & extensions
-
-## 0.0.1
-
-* TODO: Describe initial release.
+- Initial release
