@@ -10,6 +10,9 @@ extension NumberExtension on num {
   /// print(2.padLeftNumber(3)); // '002'
   /// ```
   String padLeftNumber(int length, {String pad = '0'}) {
+    if (this < 0) {
+      return '-${(-this).toString().padLeft(length, pad)}';
+    }
     return toString().padLeft(length, pad);
   }
 
