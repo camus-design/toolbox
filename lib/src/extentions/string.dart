@@ -65,7 +65,7 @@ extension StringExtension on String {
     int position, {
     bool repeat = false,
   }) {
-    assert(length < position && position >= 0);
+    assert(position < length && position >= 0);
 
     if (!repeat) {
       return '${substring(0, position)}$char${substring(position)}';
@@ -105,6 +105,9 @@ extension StringExtension on String {
   /// 'hello'.capitalize(); // returns 'Hello'
   /// ```
   String capitalize() {
+    if (isEmpty) {
+      return this;
+    }
     return '${this[0].toUpperCase()}${substring(1)}';
   }
 
@@ -115,9 +118,13 @@ extension StringExtension on String {
   /// ```dart
   /// 'hello world'.toChunks(3); // returns ['hel', 'lo ', 'wor', 'ld']
   List<String> toChunks(int size) {
+    if (isEmpty) {
+      return <String>[''];
+    }
     final List<String> chunks = <String>[];
     for (int i = 0; i < length; i += size) {
-      chunks.add(substring(i, i + size));
+      final int end = i + size >= length ? length : i + size;
+      chunks.add(substring(i, end));
     }
     return chunks;
   }
