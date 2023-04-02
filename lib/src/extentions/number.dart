@@ -9,8 +9,8 @@ extension NumberExtension on num {
   /// ```dart
   /// print(2.padLeftNumber(3)); // '002'
   /// ```
-  String padLeftNumber(num number, int length, {String pad = '0'}) {
-    return number.toString().padLeft(length, pad);
+  String padLeftNumber(int length, {String pad = '0'}) {
+    return toString().padLeft(length, pad);
   }
 
   /// Returns `true` if this number is between [min] and [max] (inclusive).
