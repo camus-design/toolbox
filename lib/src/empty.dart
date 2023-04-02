@@ -3,7 +3,15 @@
 /// If [value] is a String, this function checks whether it has a non-zero length.
 /// If [value] is a List, Set, or Map, this function checks whether it has a non-zero length.
 /// If [value] is any other type, this function simply checks whether it is not null.
-bool isNotNullOrEmpty(dynamic value) => value != null && value!.isNotEmpty;
+bool isNotNullOrEmpty(dynamic value) {
+  if (value == null) {
+    return false;
+  }
+  if (value is String || value is List || value is Set || value is Map) {
+    return value.isNotEmpty;
+  }
+  return true;
+}
 
 /// Returns true if [value] is null or empty.
 ///
