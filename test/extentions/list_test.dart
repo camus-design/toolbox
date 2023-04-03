@@ -31,7 +31,8 @@ void main() {
           ];
           final List<String> result = <String>[];
           list.forEachIndexed(
-              (String fruit, int index) => result.add('$index: $fruit'));
+            (String fruit, int index) => result.add('$index: $fruit'),
+          );
           expect(result, orderedEquals(expected));
         },
       );
