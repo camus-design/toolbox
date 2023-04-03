@@ -1,5 +1,5 @@
 /// Extension methods for the [DateTime] class.
-extension DateTimeExtention on DateTime {
+extension DateTimeExtension on DateTime {
   /// Returns the day of the week as an index, where Monday is 1 and Sunday is 7.
   ///
   /// Example:
