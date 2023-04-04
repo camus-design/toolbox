@@ -1,5 +1,7 @@
 import 'package:logger/logger.dart';
 
+export 'package:logger/logger.dart' show Level;
+
 /// This class is a wrapper around the logger package and is used for logging
 /// output.
 /// Most of the time you don't need to configure various parameters about logger,
@@ -29,7 +31,7 @@ import 'package:logger/logger.dart';
 /// logger.debug('This is a debug message with no stack trace information',
 ///              noStack: true);
 /// ```
-///
+///;
 class CamusLogger {
   /// Singleton factory
   factory CamusLogger({
