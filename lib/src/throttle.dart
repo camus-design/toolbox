@@ -12,9 +12,9 @@ import 'dart:async';
 ///
 /// ```dart
 /// final throttledPrint = camusThrottle(
-//    () => print('Throttled function called.'),
-//    milliseconds: 300,
-//  );
+///    () => print('Throttled function called.'),
+///    milliseconds: 300,
+///  );
 /// throttledPrint();
 /// ```
 Function camusThrottle(Function() callback, {required int milliseconds}) {
