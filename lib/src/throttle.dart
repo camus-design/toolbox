@@ -1,6 +1,6 @@
 import 'dart:async';
 
-/// Creates and returns a throttled version of the provided function [f].
+/// Creates and returns a throttled version of the provided function [callback].
 ///
 /// The throttled function will only be executed at most once within the
 /// specified [milliseconds]. Subsequent calls within the delay period will be ignored.
@@ -15,6 +15,7 @@ import 'dart:async';
 ///    () => print('Throttled function called.'),
 ///    milliseconds: 300,
 ///  );
+///
 /// throttledPrint();
 /// ```
 Function camusThrottle(Function() callback, {required int milliseconds}) {
