@@ -11,3 +11,4 @@ export 'src/extensions/string.dart';
 export 'src/flutter/device.dart';
 export 'src/flutter/launcher.dart';
 export 'src/log/logger.dart';
+export 'src/throttle.dart';

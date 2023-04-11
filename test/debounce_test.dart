@@ -50,10 +50,9 @@ void main() {
       expect(count, 0);
 
       await Future<void>.delayed(const Duration(milliseconds: 100));
+      expect(count, 1);
 
       debouncedFunction();
-
-      // Wait for more than the specified time.
       await Future<void>.delayed(const Duration(milliseconds: 600));
 
       // The callback function should have been executed twice.
