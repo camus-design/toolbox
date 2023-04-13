@@ -10,5 +10,6 @@ export 'src/extensions/number.dart';
 export 'src/extensions/string.dart';
 export 'src/flutter/device.dart';
 export 'src/flutter/launcher.dart';
+export 'src/flutter/text_input_formatters/numeric_text_input_formatter.dart';
 export 'src/log/logger.dart';
 export 'src/throttle.dart';
