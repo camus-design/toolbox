@@ -1,3 +1,7 @@
+## 0.3.2
+
+- Chore: update device_info_plus to 9.0.2
+
 ## 0.3.1
 
 - Fix: throttle doc
