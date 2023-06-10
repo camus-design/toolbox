@@ -22,8 +22,6 @@ An out-of-the-box tools library for both dart and flutter projects.
 
 ## How to contribute
 
-- [Project Management](https://github.com/orgs/camus-design/projects/1)
-
 ## Inspired by
 
 - [lodash](https://lodash.com/) - A modern JavaScript utility library delivering modularity, performance & extras.

@@ -1,3 +1,15 @@
+## 0.3.1
+
+- Fix: throttle doc
+
+## 0.3.0
+
+- Feature: add throttle
+
+## 0.2.0
+
+- Feature: add debounce
+
 ## 0.1.2
 
 - Chore: Spell
