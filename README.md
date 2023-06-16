@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com/camus-design/toolbox">
+    <img src="./docs/camus-design-toolbox-logo.png" width="256" alt="Camus Design Toobox" />
+  </a>
+</p>
+
 # Camus Design Toolbox
 
 Camus Design's Toolbox is a comprehensive utility library for Dart and Flutter projects.
