@@ -1,3 +1,15 @@
+## 1.0.0
+
+- Feature: Data - format_distance & interval_timer
+- Feature: debounce, throttle
+- Feature: empty, logger, uri
+- Feature: Extensions - date_time & list & number & string
+- Feature: Flutter - color, device, launcher
+
+## 0.3.2
+
+- Chore: update device_info_plus to 9.0.2
+
 ## 0.3.1
 
 - Fix: throttle doc
