@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/camus-design/toolbox">
-    <img src="./docs/camus-design-toolbox-logo.png" width="256" alt="Camus Design Toobox" />
+    <img src="./tool/asstes/logo.png" width="256" alt="Camus Design Toobox" />
   </a>
 </p>
 
