@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Doc: README
+
 ## 1.0.0
 
 - Feature: Data - format_distance & interval_timer

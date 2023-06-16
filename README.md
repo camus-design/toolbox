@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/camus-design/toolbox">
-    <img src="./tool/assets/logo.png" width="256" alt="Camus Design Toobox" />
+    <img src="https://github.com/camus-design/toolbox/assets/1112181/5716e25b-df47-48fc-918a-0e27b5d5836a" width="256" alt="Camus Design Toobox" />
   </a>
 </p>
 
@@ -73,7 +73,7 @@ flutter pub add toolbox
 To start using the Camus Design Toolbox in your projects, import the package:
 
 ```dart
-import 'package:toolbox/toolbox.dart';;
+import 'package:toolbox/toolbox.dart';
 ```
 
 Then, you can use the provided utilities in your application. For more detailed usage instructions, please refer to the API Reference.
