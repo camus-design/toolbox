@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Doc: README
+
 ## 1.0.1
 
 - Doc: README

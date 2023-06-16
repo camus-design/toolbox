@@ -80,7 +80,7 @@ Then, you can use the provided utilities in your application. For more detailed 
 
 ## API Reference
 
-For detailed information on the package's API, refer to the [API Reference](https://pub.dev/documentation/camus_design_toolbox/latest/) on pub.dev.
+For detailed information on the package's API, refer to the [API Reference](https://pub.dev/documentation/toolbox/latest/) on pub.dev.
 
 ## Changelog
 
