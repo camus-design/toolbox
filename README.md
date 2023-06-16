@@ -88,9 +88,9 @@ Then, you can use the provided utilities in your application. For more detailed 
 
 Thanks to all the people who already contributed!
 
-<a href="https://github.com/camus-design/toolbox/graphs/contributors">
+<!-- <a href="https://github.com/camus-design/toolbox/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=camus-design/toolbox" />
-</a>
+</a> -->
 
 ## Changelog
 
