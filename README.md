@@ -26,8 +26,8 @@ An out-of-the-box tools library:
     - [Installation](#installation)
     - [Usage](#usage)
   - [API Reference](#api-reference)
-  - [Contributing](#contributing)
   - [Changelog](#changelog)
+  - [Contributing](#contributing)
   - [License](#license)
 
 ## Features
@@ -82,6 +82,10 @@ Then, you can use the provided utilities in your application. For more detailed 
 
 For detailed information on the package's API, refer to the [API Reference](https://pub.dev/documentation/camus_design_toolbox/latest/) on pub.dev.
 
+## Changelog
+
+The [Changelog](./CHANGELOG.md) provides a detailed history of changes made to the package.
+
 ## Contributing
 
 Then, you can use the provided utilities in your application. For more detailed usage instructions, please refer to the Examples section and the API Reference.
@@ -91,10 +95,6 @@ Thanks to all the people who already contributed!
 <!-- <a href="https://github.com/camus-design/toolbox/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=camus-design/toolbox" />
 </a> -->
-
-## Changelog
-
-The [Changelog](./CHANGELOG.md) provides a detailed history of changes made to the package.
 
 ## License
 
