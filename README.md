@@ -76,7 +76,7 @@ To start using the Camus Design Toolbox in your projects, import the package:
 import 'package:toolbox/toolbox.dart';
 ```
 
-Then, you can use the provided utilities in your application. For more detailed usage instructions, please refer to the API Reference.
+Then, you can use the provided utilities in your application. For more detailed usage instructions, please refer to the [API Reference](https://pub.dev/documentation/toolbox/latest/).
 
 ## API Reference
 
@@ -92,9 +92,9 @@ Then, you can use the provided utilities in your application. For more detailed 
 
 Thanks to all the people who already contributed!
 
-<!-- <a href="https://github.com/camus-design/toolbox/graphs/contributors">
+<a href="https://github.com/camus-design/toolbox/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=camus-design/toolbox" />
-</a> -->
+</a>
 
 ## License
 

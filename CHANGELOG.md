@@ -1,3 +1,7 @@
+## 1.1.0
+
+- Feature: add Object extensions - isNotNullOrEmpty, isNullOrEmpty
+
 ## 1.0.2
 
 - Doc: README
