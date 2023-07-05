@@ -58,8 +58,8 @@ An out-of-the-box tools library:
 
 ## Requirements
 
-- Flutter 2.0.0 or higher
-- Dart SDK version 2.12.0 or higher
+- Flutter 1.17.0 or higher
+- Dart SDK version 2.19.2 or higher
 
 ## Getting Started
 

@@ -1,3 +1,7 @@
+## 1.2.1
+
+- Doc: README
+
 ## 1.2.0
 
 - Feature: add Time measurement
