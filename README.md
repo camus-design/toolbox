@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/camus-design/toolbox">
-    <img src="https://github.com/camus-design/toolbox/assets/1112181/5716e25b-df47-48fc-918a-0e27b5d5836a" width="256" alt="Camus Design Toobox" />
+    <img src="https://github.com/camus-design/toolbox/assets/1112181/5716e25b-df47-48fc-918a-0e27b5d5836a" width="256" alt="Camus Design Toolbox" />
   </a>
 </p>
 
@@ -42,6 +42,7 @@ An out-of-the-box tools library:
 │   ├── date_time.dart
 │   ├── list.dart
 │   ├── number.dart
+│   ├── object.dart
 │   └── string.dart
 ├── flutter
 │   ├── color.dart
@@ -49,6 +50,8 @@ An out-of-the-box tools library:
 │   └── launcher.dart
 ├── log
 │   └── logger.dart
+├── performance
+│   └── time_measurement.dart
 ├── throttle.dart
 └── uri.dart
 ```

@@ -1,3 +1,7 @@
+## 1.2.0
+
+- Feature: add Time measurement
+
 ## 1.1.0
 
 - Feature: add Object extensions - isNotNullOrEmpty, isNullOrEmpty
